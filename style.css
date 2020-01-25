@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white; }
+
+header {
+  background-image: linear-gradient(to right, #641B1D, #501517); }
+
+nav, footer {
+  background-color: #1A1A1A; }
+
+.title {
+  background-color: #DDDDDD; }
+
+#content {
+  width: 95%;
+  margin: auto; }
+
+#logbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #logbar #logo {
+    width: 23%;
+    height: 100%;
+    margin: 4% 2.5%; }
+  #logbar #logoBanner {
+    width: 60%;
+    height: 100%;
+    margin: 2%; }
+
+nav {
+  padding: 0.5% 1%; }
+  nav li {
+    display: inline;
+    margin: 0 1%; }
+    nav li a {
+      text-decoration: none;
+      font-size: 2em; }
+
+#date {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: right;
+  padding: 1% 0; }
+
+.title {
+  color: black;
+  font-size: 2em;
+  padding: 0.5% 1%;
+  margin-bottom: 1.5%; }
+
+.columns {
+  display: flex;
+  justify-content: space-between; }
+  .columns .leftColumn {
+    width: 86.75%; }
+    .columns .leftColumn .wrapper {
+      display: flex;
+      justify-content: space-between; }
+      .columns .leftColumn .wrapper #topNews {
+        display: flex;
+        justify-content: space-between; }
+        .columns .leftColumn .wrapper #topNews #linkDiv1, .columns .leftColumn .wrapper #topNews #linkDiv2, .columns .leftColumn .wrapper #topNews #linkDiv3 {
+          width: 31%; }
+          .columns .leftColumn .wrapper #topNews #linkDiv1 a img, .columns .leftColumn .wrapper #topNews #linkDiv2 a img, .columns .leftColumn .wrapper #topNews #linkDiv3 a img {
+            width: 100%; }
+          .columns .leftColumn .wrapper #topNews #linkDiv1 .caption, .columns .leftColumn .wrapper #topNews #linkDiv2 .caption, .columns .leftColumn .wrapper #topNews #linkDiv3 .caption {
+            position: relative;
+            margin-top: -20%;
+            width: 100%;
+            height: 30%;
+            background-color: #171717; }
+            .columns .leftColumn .wrapper #topNews #linkDiv1 .caption p, .columns .leftColumn .wrapper #topNews #linkDiv2 .caption p, .columns .leftColumn .wrapper #topNews #linkDiv3 .caption p {
+              padding: 5px 10px;
+              text-align: justify; }
+        .columns .leftColumn .wrapper #topNews .bannerPhone {
+          display: none; }
+    .columns .leftColumn .title {
+      margin-top: 3%; }
+
+#popular {
+  display: flex;
+  justify-content: space-between; }
+  #popular #linkDiv1, #popular #linkDiv2, #popular #linkDiv3 {
+    width: 31%; }
+    #popular #linkDiv1 a img, #popular #linkDiv2 a img, #popular #linkDiv3 a img {
+      width: 100%; }
+    #popular #linkDiv1 .caption, #popular #linkDiv2 .caption, #popular #linkDiv3 .caption {
+      position: relative;
+      margin-top: -20%;
+      width: 100%;
+      height: 30%;
+      background-color: #171717; }
+    #popular #linkDiv1 .ofNonStandartImage, #popular #linkDiv2 .ofNonStandartImage, #popular #linkDiv3 .ofNonStandartImage {
+      margin-top: -9%; }
+      #popular #linkDiv1 .ofNonStandartImage p, #popular #linkDiv2 .ofNonStandartImage p, #popular #linkDiv3 .ofNonStandartImage p {
+        padding: 5px 10px;
+        text-align: justify; }
+
+.rightColumn {
+  width: 11.81%; }
+  .rightColumn img {
+    width: 100%;
+    height: auto; }
+
+#banner2 {
+  width: 92%;
+  padding: 2% 0;
+  display: block;
+  margin: auto; }
+
+#remainingImages {
+  display: flex;
+  flex-wrap: wrap; }
+  #remainingImages #linkDiv1, #remainingImages #linkDiv2, #remainingImages #linkDiv3 {
+    width: 45%;
+    margin: 2%; }
+    #remainingImages #linkDiv1 a img, #remainingImages #linkDiv2 a img, #remainingImages #linkDiv3 a img {
+      width: 100%; }
+    #remainingImages #linkDiv1 .caption, #remainingImages #linkDiv2 .caption, #remainingImages #linkDiv3 .caption {
+      position: relative;
+      margin-top: -20%;
+      width: 100%;
+      height: 30%;
+      background-color: #171717; }
+    #remainingImages #linkDiv1 .ofNonStandartImage, #remainingImages #linkDiv2 .ofNonStandartImage, #remainingImages #linkDiv3 .ofNonStandartImage {
+      margin-top: -9%; }
+      #remainingImages #linkDiv1 .ofNonStandartImage p, #remainingImages #linkDiv2 .ofNonStandartImage p, #remainingImages #linkDiv3 .ofNonStandartImage p {
+        padding: 5px 10px;
+        text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
